@@ -53,7 +53,7 @@ mkdir -p %{buildroot}%{_bindir}
 mkdir -p %{buildroot}%{_libdir}
 mkdir -p %{buildroot}%{_libdir}/pkgconfig
 mkdir -p %{buildroot}%{_includedir}/iosea
-mkdir -p %{buildroot}%{_sysconfdir}/kvsns.d
+mkdir -p %{buildroot}%{_sysconfdir}/iosea.d
 install -m 644 include/iosea/hashlib.h  %{buildroot}%{_includedir}/iosea
 install -m 644 libiosea-hash.pc  %{buildroot}%{_libdir}/pkgconfig
 install -m 644 hash/libhashkvs.so %{buildroot}%{_libdir}
