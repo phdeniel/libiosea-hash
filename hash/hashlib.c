@@ -7,7 +7,7 @@
 #include <time.h>
 #include "murmur3.h"
 #include "macaddr.h"
-#include <iosea/hashlib.h>
+#include "../include/iosea/hashlib.h"
 
 static int sprint_label(char *label, int labellen, char *grp, char *item)
 {
