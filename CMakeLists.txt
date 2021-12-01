@@ -79,4 +79,4 @@ endif(NOT WITHIN_IOSEA_NAMESPACE_REPO)
 
 # INSTALL
 install(FILES ${PROJECT_SOURCE_DIR}/libiosea-hash.pc DESTINATION lib)
-install(DIRECTORY ${PROJECT_SOURCE_DIR}/include/kvsns DESTINATION include)
+install(FILES ${PROJECT_SOURCE_DIR}/include/iosea/hashlib.h DESTINATION include/iosea)
