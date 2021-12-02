@@ -26,6 +26,8 @@ Provides: %{name}-devel = %{version}-%{release}
 The libiosea-hashi contains hashing functions. It is intended to be
 used inside the IO-SEA namespace related tools and libs.
 
+%global debug_package %{nil} 
+
 %prep
 %setup -q -n %{sourcename}
 
