@@ -9,7 +9,7 @@ License: LGPLv3
 Group: Development/Libraries
 Url: http://github.com/phdeniel/libiosea-hash
 Source: %{sourcename}.tar.gz
-BuildRequires: gcc
+BuildRequires: gcc cmake
 Provides: %{name} = %{version}-%{release}
 
 %description
