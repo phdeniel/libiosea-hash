@@ -1,6 +1,6 @@
 /**
  * @file  hashlib.h
- * @brief Header file for sources of the HashLib API 
+ * @brief Header file for sources of the HashLib API
  */
 #ifndef _MACADDR_H
 #define _MACADDR_H
